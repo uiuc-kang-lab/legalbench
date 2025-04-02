@@ -1,0 +1,13 @@
+[project]
+name = "legalbench"
+version = "0.1.0"
+description = "LegalBench: A Benchmark for Legal Reasoning in Large Language Models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=2.0.0",
+    "pandas>=1.0.0",
+    "numpy>=1.19.0",
+    "scikit-learn>=0.24.0",
+    "tqdm>=4.62.0",
+]
