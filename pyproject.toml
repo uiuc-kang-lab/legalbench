@@ -20,3 +20,6 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools.packages.find]
 include = ["legalbench*"]
 exclude = ["docs*", "img*"]
+
+[tool.setuptools.package-data]
+"legalbench" = ["**/*.txt", "**/*.md", "**/*.tsv", "**/*.csv", "**/*.json"]
